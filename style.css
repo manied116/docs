@@ -1,0 +1,137 @@
+body
+{
+  background-image:url('steth.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-emphasis-color: white;
+}
+h1{
+    background-color:#2086a0;
+    text-align: center;
+    font-size: 50px;
+    border:1px solid gray;
+    border-left: 1200px;   
+    border-right: -1500px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+h4{
+    margin: 10px;
+    padding: 15px;
+}
+h3{
+    margin: 10px;
+    padding: 10px;
+}
+.header , footer{
+    text-align: justify;
+    background-color: darkgrey;
+}
+p{
+    padding: 2.0px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 2.0;
+    
+}
+blockquote{
+    line-height: 2.0;
+}
+.about{
+   border-radius: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: azure;
+  }
+th,  td {
+    padding: 15px;
+    text-align: left;
+  }
+  footer{
+    line-height: 1.0;
+}
+footer img{
+    float: right;
+    margin: 2px;
+}
+small{
+    text-align: center;
+}
+aside{
+    width: 200px;
+    height: 150px;
+	padding: 50px;
+	margin: 200px;
+    margin-top: -546px;
+    margin-right: 250px;
+    float: right;
+}
+img{
+    border-radius: 20px;
+    
+}
+img:hover{
+    opacity: 0.5;
+}
+
+nav{
+	background-color: darkgray;
+	overflow: hidden;
+    border-radius: 10px;
+    margin: 0px;
+    }
+nav ul{
+		list-style-type: none;
+		padding: 0px;
+         margin: 0px;
+    }
+nav ul li{
+            float: left;
+        }
+nav ul li a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 25px;
+			display: inline-block;
+			font-size: 15px;
+		}
+nav ul li a:hover{
+    	    background-color: rgb(212, 135, 235);
+     }
+input[type=text]{
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            border: 1px solid gray;
+            border-radius: 15px;
+           font-size: 17px;
+}
+.search img{
+    height: 5px;
+    width: 5px;
+}
+
+.tips
+{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+}
+ul li{
+    line-height: 2.0;
+}
+.poc{
+    border-radius: 10px;
+}
+.social img{
+       
+        padding: 50px;
+         margin: 50px;
+    }
